@@ -36,7 +36,36 @@
     padding: 6px;
   }
 }
-
+/*First Section - Desktop First */
+.first-container {
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+  padding: 2em 4em 2em 4em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+h1 {
+  font-weight: 700;
+  color: hsl(233, 26%, 24%);
+}
+.sub-title p {
+  width: 34vw;
+}
+/* First Section - Imagens */
+.bg-imgs img {
+  width: 100%;
+}
+.bg-frente {
+  width: 70%;
+  margin-top: -80vh;
+  margin-left: 7em;
+}
 /*Attribution */
 .attribution {
   font-size: 11px;
