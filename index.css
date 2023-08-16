@@ -110,3 +110,57 @@ h1 {
 }
 
 /* Section 3 - Articles */
+.terc-sec {
+  background-color: hsl(220, 16%, 96%);
+  width: 100%;
+  padding: 2em 4em 2em 4em;
+}
+.latest {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3em;
+  width: 100%;
+  background-color: hsl(220, 16%, 96%);
+  margin-top: 2em;
+}
+.card-article {
+  background-color: hsl(0, 0%, 100%);
+  border: none;
+  width: 25vw;
+  padding: 5px;
+  border-radius: 4px transparent;
+}
+.card-body {
+  margin: 0;
+  padding: 0;
+}
+.card-img-top {
+  width: 60%;
+  margin-bottom: 6px;
+}
+.author {
+  font-size: x-small;
+}
+.card-text {
+  font-size: 14px;
+}
+.card-title:hover {
+  color: hsl(136, 65%, 51%);
+}
+@media (max-width: 765px) {
+  .latest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 16em;
+  }
+  .card-img-top {
+    width: 40%;
+  }
+}
+
+/* Footer */
