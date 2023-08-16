@@ -27,7 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![easybank-screen](https://github.com/andressablima/easy-bank/assets/113699211/e9f96cbb-3db8-4bf1-8859-987a4eeb4d4b)
+
 
 ## My process
 
